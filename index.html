@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta name="viewport" content="width-device-width"> 
+			<title>Future properties</title>
+				<script src="jquery-3.1.1.js"></script>
+				<script src="script.js"></script>
+				<script src="cycle.js"></script>
+				<style type="text/css">
+
+					* {
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						
+						}
+
+					.logo {
+						    position: absolute;
+						    margin-left: 32px;
+						    height: 217px;
+						    width: 343px;
+						    margin-top: -53px;
+						    z-index: -3;
+					}
+					.contact_main {
+
+						margin-left: 989px;
+						margin-top: 10px;
+						font-size: 18px;
+						font-family: crimson text;
+						position: absolute;
+					}
+
+					ul.child > li {
+						padding: 10px;
+					    background: #034f09;
+					    text-align: center;
+					    
+					}
+
+					ul.child {
+						display: none;
+						width:100%!important;
+
+
+					}
+
+					ul.parent > li {
+								margin-top: 110px;
+							    width: 15%;
+							    text-align: center;
+							    padding: 11px;
+							    background: #034f09;
+							    color: white;
+							    font-family: crimson text;	         
+							    overflow: visible;
+							    cursor: pointer;  
+							    font-size: 18px;
+							    float: left;
+							    z-index: 1;
+
+
+							   													
+					} 
+
+					.tagline-bar {
+								height: 54px;
+							    width: 100%;
+							    background: #034f09;
+							    float: bottom;
+							    text-align: center;
+							    font-family: crimson text;
+							    color: white;
+							    font-size: 40px;
+							    position:absolute;
+							    margin-top: 645px;
+
+
+					}
+
+					#imageclass {
+   						
+					    width: 100%;
+					    position: absolute;
+					    margin: 2px auto;
+   						margin-top:158px;
+   						margin-left: 10px;
+   						z-index: -3;
+   						
+   							 		
+					}
+					
+					a {
+						color: white;
+						list-style: none;
+						text-decoration: none;
+					}
+					
+					nav {
+						margin-left: 5px;
+					}
+					
+		</style>
+		</head>
+
+		<body>
+
+			<div>
+				<img class="logo" src="images/mylogo.PNG">
+			</div>
+
+				<div class="contact_main" style="color: #034f09">
+					Future Properties LLC </br>
+					90 Garden Dr Manchester NH</br>
+					(123)-456-789</br>
+						<a href="mailto:futureproperties@gmail.com" style="color: #034f09">Email: futureproperties@gmail.com</a>
+				</div>
+
+			<nav class="navbar">
+				<ul class="parent" > 
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="method.html" >The Method </a>
+							 <ul class="child ">
+	
+								<li><a>Difference</a></li>
+								<li><a>Resources</a></li>
+								<li><a>Our Story</a></li>
+							
+							</ul>
+					</li>
+					<li> <a href="listings.html">Featured Listings</a> </li>
+					<li> <a href="team.html">The Team</a> </li>
+					<li> Advice
+
+						<ul class="child">
+						
+							<li><a>Seller Guide</a></li>
+							<li><a>Blog</a></li>
+							<li><a>Design</a></li>
+							
+					
+						</ul>
+					</li>
+					<li><a href="contact.html">Connect</a></li>
+				</ul>
+			</nav>
+			<div id="imageclass">
+				
+				<img src="images/house1.PNG">
+				<img src="images/house2.PNG">
+				<img src="images/house3.PNG">
+				<img src="images/house4.PNG">
+				<img src="images/house5.PNG">
+	
+			</div>
+
+			<div class="tagline-bar">			
+				"The Most Rewarding way to sell your home"	
+			</div>
+
+		</body>
+	</html> 
+	
